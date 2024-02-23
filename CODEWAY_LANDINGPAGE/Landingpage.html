@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="index.css">
+	<title>Landing Page</title>
+	<style type="text/css">
+		.heading{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	border-style: double;
+	}
+	.mark{
+		background-color: pink;
+		 display: flex;
+	justify-content: center;
+	align-items: center;
+		font: red;
+	}
+	.button:hover span {
+    padding-right: 25px;
+    color: navy;
+    cursor: pointer;
+    }
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="heading"><b>Landing Page</b></div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+<marquee><div class="mark"> <li>ADMISSIONS  OPEN from june 2024 in all branches</li>
+<li>registration is available through online</li></div></marquee>
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for 
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>COLLEGE</h1>
+			<button>
+				<a href=https://www.collegesearch.in/>
+					Explore More
+				</a>
+			</button>
+		</div>
+		<div class="side2">
+			<img src="https://tse3.mm.bing.net/th?id=OIP.bfwk_t1pt-L8UqTe9UHXtgHaES&pid=Api&P=0&h=180"width="500">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="title">
+				<span>Courses</span>
+			</div>
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>ECE</b>
+						</a>
+					</div>
+					<p>
+						Electronics and communication engineering (ECE) comprises communication engineering and the core of electrical engineering. A career in this field can be very diverse and rewarding.
+					</p>
+				</div>
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>CSE</b>
+						</a>
+					</div>
+					<p>
+						Computer science is the study of computation, information, and automation.Computer science spans theoretical disciplines (such as algorithms, theory of computation, and information theory) to applied disciplines (including the design and implementation of hardware and software).Though more often considered an academic discipline, computer science is closely related to computer programming.
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							<b>MECH</b>
+						</a>
+					</div>
+					<p>
+						Mechanical engineering is the study of physical machines that may involve force and movement. It is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems.It is one of the oldest and broadest of the engineering branches.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>
+								Contact Us
+							</span>
+						</div>
+						<div class="content1">
+							ABC Engineeering college,Hindupur,AndhraPradesh,515201.
+						</div>
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer">
+			<span>
+				Created By
+				<a href="https://www.collegesearch.in/"
+					target="_blank">
+					COLLEGE
+				</a>
+			</span>
+		</div>
+	</footer>
+</body>
+
+</html>
